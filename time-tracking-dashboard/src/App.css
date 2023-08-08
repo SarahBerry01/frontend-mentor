@@ -1,4 +1,5 @@
 @import "Reset.css";
+@import "Colors.css";
 
 .App{
   display: flex;
@@ -7,6 +8,7 @@
   align-items: center;
   width: 100vw;
   height: 100vh;
+  background: var(--very-dark-blue);
   
 }
 
@@ -24,17 +26,19 @@
   flex-direction: column;
   justify-items: center;
   align-items: center;
-  width:40%;
+  width:30%;
   height: 80%;
-  background-color: red;
-  margin: 5px;
+  background-color: var(--dark-blue);
+  margin: 10px;
+  border-radius: 0.8rem;
 }
 
 .userCard {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: pink;
+  background-color: var(--desaturated-blue);
   height: 80%;
-  width: 100%
+  width: 100%;
+  border-radius: 0.8rem;
 }
