@@ -1,1 +1,40 @@
 @import "Reset.css";
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+.body{
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+}
+
+.userMenu{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  width:40%;
+  height: 80%;
+  background-color: red;
+  margin: 5px;
+}
+
+.userCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: pink;
+  height: 80%;
+  width: 100%
+}

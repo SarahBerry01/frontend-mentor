@@ -1,0 +1,23 @@
+.breakdownGrid {
+  display: grid;
+  grid-template-columns: repeat(3,  1fr);
+  grid-gap: 10px;
+  width: 60%;
+  height: 80%; 
+  margin: 5px auto;
+  background-color: beige;
+}
+
+.breakdownCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: pink;
+  height: 100%;
+}
+
+.statsCard {
+  display: flex;
+  background-color: blue;
+  height: 80%;
+}
