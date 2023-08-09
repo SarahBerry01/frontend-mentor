@@ -1,7 +1,7 @@
 @import "Reset.css";
 @import "Colors.css";
 
-.App{
+.App {
   display: flex;
   flex-direction: column;
   justify-items: center;
@@ -9,10 +9,10 @@
   width: 100vw;
   height: 100vh;
   background: var(--very-dark-blue);
-  
+
 }
 
-.body{
+.body {
   display: flex;
   flex-direction: row;
   justify-items: center;
@@ -21,16 +21,33 @@
   height: 80%;
 }
 
-.userMenu{
+.userMenu {
   display: flex;
   flex-direction: column;
-  justify-items: center;
-  align-items: center;
-  width:30%;
+  /* justify-items: center;
+  align-items: center; */
+  width: 30%;
   height: 80%;
   background-color: var(--dark-blue);
   margin: 10px;
   border-radius: 0.8rem;
+}
+
+.profileBorder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin: 10%;
+  border-radius: 50%;
+  background-color: white;
+  aspect-ratio: 1;
+
+}
+
+.profileImg {
+  width: 95%;
 }
 
 .userCard {
@@ -41,4 +58,48 @@
   height: 80%;
   width: 100%;
   border-radius: 0.8rem;
+}
+
+.timeFrame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  height: 100%;
+  width: 100%;
+  padding: 15px;
+
+}
+
+.selected{
+  color: white;
+}
+
+button {
+  height: auto;
+  width: auto;
+  background-color: transparent;
+  border: transparent;
+  color: var(--desaturated-blue);
+  justify-self: left;
+  text-align: start;
+}
+
+p,
+h1,
+h2,
+h3 {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+}
+
+p {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 500;
 }
