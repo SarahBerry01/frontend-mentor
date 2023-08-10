@@ -10,27 +10,69 @@
 .breakdownCard {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: right;
+  position: relative;
   background-color: var(--lime-green);
   height: 100%;
   border-radius: 1rem;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 .statsCard {
   display: flex;
-  background-color: var(--dark-blue);
+  flex-direction: column;
+  position: absolute;
+  justify-self: flex-end;
+  bottom: 0;
+  background-color: var(--dark-blue);;
   justify-content: center;
   align-items: center;
   text-align: center;
   height: 80%;
+  width: 100%;
   border-radius: 0.8rem;
   margin: 0;
   padding: 0;
+}
+
+.bdImg{
+  position: absolute;
+  top:5px;
+  right: 5px;
+  height: 25%;
+  aspect-ratio: 1;
 }
 
 .time{
   font-size: 4rem;
   color: white;
 }
+
+.orange{
+  background-color: var(--light-orange);
+}
+
+.blue{
+  background-color: var(--soft-blue);
+}
+
+.pink{
+  background-color: var(--light-red);
+}
+
+.green{
+  background-color: var(--lime-green);
+}
+
+.purple{
+  background-color: var(--violet);
+}
+
+.yellow{
+  background-color: var(--soft-orange);
+}
+
+
+

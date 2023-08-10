@@ -55,17 +55,18 @@
   flex-direction: column;
   justify-content: flex-start;
   background-color: var(--desaturated-blue);
-  height: 80%;
+  height: 75%;
   width: 100%;
   border-radius: 0.8rem;
+  overflow: hidden;
 }
 
 .timeFrame {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
-  height: 100%;
+  align-items: flex-start;
+  height: 25%;
   width: 100%;
   padding: 15px;
 
